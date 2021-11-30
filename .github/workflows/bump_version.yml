@@ -29,5 +29,9 @@ jobs:
       - name: Bump Version
         run: bash .github/workflows/scripts/bump_version.sh
         env:
+<<<<<<< HEAD
           ACCESS_TOKEN: "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"
+=======
+          ACCESS_TOKEN: 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
+>>>>>>> eb4a002e696d5021d7c5d21946f567fd41808632
 #         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
